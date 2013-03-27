@@ -28,8 +28,8 @@ t on"
 If you get this, specify the following settings in your ``~/.vimrc`` instead::
 
     set nocompatible
-    set tabstop=2
-    set shiftwidth=2
+    set tabstop=4
+    set shiftwidth=4
     set expandtab
 
 Alternately, files can be copied into any other directory where vim looks for
@@ -47,7 +47,7 @@ Files
     wrapping, folding and indenting. Added features:
 
     - All tabs are converted to spaces.
-    - Tab key indents by 2 spaces.
+    - Tab key indents by 4 spaces.
     - Commets will be hardwrapped (with added leading #)
       This is done by setting formatoptions.
     - <Space> key will try to fold/unfold an area.
